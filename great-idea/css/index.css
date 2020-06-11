@@ -70,28 +70,30 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
-	max-width: 1400px;
+	max-width: 100%;
 	margin: 0 auto;
   }
   
   /* Navigation */
   .main-header .navbar {
 	padding: 10px;
-  }
-  
-  .main-header .navbar ul {
 	display: flex;
   }
   
+  .main-header .navbar ul {
+	  display: flex;
+	  margin: 0 5%;
+  }
+  
   .main-header .navbar ul li {
-	display: inline;
-	padding: 0 20px;
+	margin: 0 5%;
   }
   
   .main-header .navbar ul li a {
 	color: #ccc;
 	text-decoration: none;
-	padding: 5px;
+	padding: 2%;
+	margin: 0 20%;
 	font-size: 20px;
   }
   
