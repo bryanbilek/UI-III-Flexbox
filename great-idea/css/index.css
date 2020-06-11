@@ -128,12 +128,15 @@ h1, h2, h3, h4, h5 {
   }
   
   /* Content section */
+  .content-section .container .context-box {
+	  display: flex;
+	  flex-direction: row;
+	  max-width: 100%;
+  }
   
   .content-section .content-box-top {
-	display: inline-block;
-	max-width: 500px;
-	margin: 2% 0 2% 8%;
-	padding: 20px;
+	width: 50%;
+	padding: 5%;
   }
   
   .content-section .content-box h1 {
